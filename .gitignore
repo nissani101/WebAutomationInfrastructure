@@ -1,0 +1,32 @@
+## Visual Studio / .NET Core Core gitignore
+# Bins and objs
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+.vs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono auto generated files
+mono_crash.*
+
+# Executables
+*.exe
+*.dll
+*.pdb
+*.cache
+*.json
+
+# Playwright specific browser downloads or user data if nested
+.playwright/
+playwright.ps1
+user-data/
+
+# VS Code
+.vscode/
